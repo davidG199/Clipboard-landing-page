@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px;
+}
+
+#section-header{
+    background: url(../images/bg-header-mobile.png) no-repeat;
+}
