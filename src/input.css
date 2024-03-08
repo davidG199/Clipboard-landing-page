@@ -8,5 +8,6 @@
 }
 
 #section-header{
-    background: url(../images/bg-header-mobile.png) no-repeat;
+    background: url(../images/bg-header-mobile.png) no-repeat center center;
+    background-size: cover
 }
