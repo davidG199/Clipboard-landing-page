@@ -29,91 +29,110 @@
   <body class="p-0 m-0">
     <main class="flex justify-center items-center flex-col text-center">
       <section
-        class="flex flex-col items-center h-screen pt-24 px-8"
+        class="w-full h-screen md:h-auto py-24 md:pb-12 px-8 flex justify-center"
         id="section-header"
       >
-        <img src="../images/logo.svg" alt="" class="w-28 h-28 mb-8" />
-        <p class="text-2xl text-Dark-Grayish-Blue font-semibold mx-2">
-          A history of everything you copy
-        </p>
-        <p class="mt-4 mb-8 text-Grayish-Blue text-sm">
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </p>
-        <div class="flex flex-col w-full">
-          <button
-            class="bg-Strong-Cyan text-white w-full mb-6 h-12 rounded-3xl font-semibold shadow-lg"
+        <div class="flex flex-col items-center md:w-[850px] md:px-1">
+          <img
+            src="../images/logo.svg"
+            alt="logo-main"
+            class="w-28 h-28 mb-8"
+          />
+          <p
+            class="text-2xl md:text-4xl md:mx-0 mx-2 text-Dark-Grayish-Blue font-semibold"
           >
-            Download for iOS
-          </button>
-          <button
-            class="bg-Light-Blue text-white h-12 rounded-3xl font-semibold shadow-lg"
-          >
-            Download for Mac
-          </button>
+            A history of everything you copy
+          </p>
+          <p class="mt-4 mb-8 text-Grayish-Blue text-sm md:text-lg">
+            Clipboard allows you to track and organize everything you copy.
+            Instantly access your clipboard on all your devices.
+          </p>
+          <div class="flex flex-col w-full md:flex-row justify-center gap-3">
+            <button
+              class="bg-Strong-Cyan text-white mb-6 h-12 rounded-3xl font-semibold shadow-lg md:w-[250px]"
+            >
+              Download for iOS
+            </button>
+            <button
+              class="bg-Light-Blue text-white h-12 rounded-3xl font-semibold shadow-lg md:w-[250px]"
+            >
+              Download for Mac
+            </button>
+          </div>
         </div>
       </section>
 
-      <section class="px-8 mt-28 mb-14">
-        <h2 class="text-Dark-Grayish-Blue font-semibold text-3xl mb-5">
-          Keep track of your snippets
-        </h2>
-        <p class="text-Grayish-Blue mb-14 text-sm">
-          Clipboard instantly stores any item you copy in the cloud, meaning you
-          can access your snippets immediately on all your devices. Our Mac and
-          iOS apps will help you organize everything.
-        </p>
-        <img src="../images/image-computer.png" alt="tv" class="" />
+      <section
+        class="px-8 mt-28 md:mt-5 mb-14 flex flex-col justify-center items-center w-full"
+      >
+        <div class="md:w-[850px]">
+          <h2
+            class="text-Dark-Grayish-Blue font-semibold text-3xl mb-5 md:text-4xl"
+          >
+            Keep track of your snippets
+          </h2>
+          <p class="text-Grayish-Blue mb-14 text-sm md:text-lg">
+            Clipboard instantly stores any item you copy in the cloud, meaning
+            you can access your snippets immediately on all your devices. Our
+            Mac and iOS apps will help you organize everything.
+          </p>
+        </div>
+        <div class="mt-8 flex flex-col md:flex-row w-full">
+          <img src="../images/image-computer.png" alt="tv" class="md:relative md:-left-16" />
+          <div class="md:w-[450px] md:text-start md:ml-12">
+
+          <p class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3 mt-8">
+            Quick Search
+          </p>
+          <p class="text-Grayish-Blue mb-10 text-sm md:text-lg">
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+          <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
+            iCloud Sync
+          </h2>
+          <p class="text-Grayish-Blue mb-10 text-sm md:text-lg">
+            Instantly saves and syncs snippets across all your devices.
+          </p>
+          <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
+            Complete History
+          </h2>
+          <p class="text-Grayish-Blue mb-14 text-sm md:text-lg">
+            Retrieve any snippets from the first moment you started using the
+            app.
+          </p>
+          </div>
+        </div>
       </section>
 
-      <section class="px-8">
-        <p class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
-          Quick Search
-        </p>
-        <p class="text-Grayish-Blue mb-10 text-sm">
-          Easily search your snippets by content, category, web address,
-          application, and more.
-        </p>
-        <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
-          iCloud Sync
-        </h2>
-        <p class="text-Grayish-Blue mb-10 text-sm">
-          Instantly saves and syncs snippets across all your devices.
-        </p>
-        <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
-          Complete History
-        </h2>
-        <p class="text-Grayish-Blue mb-14 text-sm">
-          Retrieve any snippets from the first moment you started using the app.
-        </p>
-      </section>
-
-      <section class="px-8 w-full mt-20">
-        <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
+      <section class="px-8 w-full mt-20 md:mt-10 flex flex-col items-center">
+        <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3 md:text-4xl">
           Access Clipboard anywhere
         </h2>
-        <p class="text-Grayish-Blue mb-12 text-sm">
+        <p class="text-Grayish-Blue mb-12 text-sm md:text-lg md:px-64">
           Whether you’re on the go, or at your computer, you can access all your
           Clipboard snippets in a few simple clicks.
         </p>
-        <img src="../images/image-devices.png" alt="" />
+        <img src="../images/image-devices.png" alt="image-devices" class="md:w-[950px] md:h-[650px]"/>
       </section>
 
-      <section class="px-8 mt-24">
+      <section class="px-8 mt-24 md:mt-14 md:flex md:flex-col items-center">
         <div>
-          <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3">
+          <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl md:text-4xl mb-3">
             Supercharge your workflow
           </h2>
-          <p class="text-Grayish-Blue mb-16 text-sm">
+          <p class="text-Grayish-Blue mb-16 text-sm md:text-lg">
             We’ve got the tools to boost your productivity.
           </p>
         </div>
+        
+        <div class="grid md:grid-cols-3 md:mt-10 md:h-min">
         <div class="flex flex-col items-center">
           <img src="../images/icon-blacklist.svg" alt="" />
           <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mt-9 mb-3">
             Create blacklists
           </h2>
-          <p class="text-Grayish-Blue mb-12 text-sm">
+          <p class="text-Grayish-Blue mb-12 text-sm md:text-lg">
             Ensure sensitive information never makes its way to your clipboard
             by excluding certain sources.
           </p>
@@ -123,7 +142,7 @@
           <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3 mt-9">
             Plain text snippets
           </h2>
-          <p class="text-Grayish-Blue mb-12 text-sm">
+          <p class="text-Grayish-Blue mb-12 text-sm md:text-lg">
             Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
@@ -132,9 +151,10 @@
           <h2 class="text-Dark-Grayish-Blue font-semibold text-2xl mb-3 mt-9">
             Sneak preview
           </h2>
-          <p class="text-Grayish-Blue mb-12 text-sm">
+          <p class="text-Grayish-Blue mb-12 text-sm md:text-lg">
             Quick preview of all snippets on your Clipboard for easy access.
           </p>
+        </div>
         </div>
       </section>
 

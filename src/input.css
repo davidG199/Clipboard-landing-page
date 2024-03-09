@@ -8,6 +8,14 @@
 }
 
 #section-header{
-    background: url(../images/bg-header-mobile.png) no-repeat center center;
-    background-size: cover
+    background: url(../images/bg-header-mobile.png) no-repeat;
+    background-size: contain;
+}
+
+@media (min-width: 768px) {
+    
+    #section-header{
+        background: url(../images/bg-header-desktop.png) no-repeat;
+        background-size: contain;
+    }
 }
