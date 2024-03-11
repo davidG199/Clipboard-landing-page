@@ -12,6 +12,11 @@
     background-size: contain;
 }
 
+a:hover{
+    color: hsl(171, 66%, 44%);
+}
+
+
 @media (min-width: 768px) {
     
     #section-header{
