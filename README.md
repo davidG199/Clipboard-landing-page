@@ -12,8 +12,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://davidg199.github.io/Clipboard-landing-page/)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: https://davidg199.github.io/Clipboard-landing-page/src/index.html
 
 
 
